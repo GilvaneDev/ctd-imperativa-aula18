@@ -12,7 +12,7 @@ const aplicativo = new express();
 // 3. Criando a Rota e retornando alguma informação.
 aplicativo.get('/', function(requisicaoAoServidor, respostaDoServidor) {
     // 3.1. Manda um arquivo como resposta para o navegador.
-    respostaDoServidor.sendFile( __dirname + '/home/componente.html' ); 
+    respostaDoServidor.sendFile( __dirname + '/home/home.componente.html' ); 
 });
 
 // 4. Inicializar o servidor.
